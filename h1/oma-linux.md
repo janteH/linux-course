@@ -45,3 +45,6 @@ Kohtasin tässä ongelmaan, ettei virtuaalikoneeni käynnisty. Sain virheeksi AM
 
 Googletin ongelmaa, ja kokeilin luoda Virtuaalikoneen uudelleen vain yhdellä prosessorilla. <br>
 Tämä ei kuitenkaan auttanut, joten päätin bootata koneeni BIOS:iin ja tutkia sieltä, pystynkö enabloimaan prosessorin asetuksista Secure Virtual Machine Moden
+
+Löysin BIOS asetuksista SVM (Secure Virtual Machine Mode) asetuksen, jonka nyt sallin. <br>
+Tämä ei kuitenkaan auttanut.
