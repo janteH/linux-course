@@ -1,5 +1,6 @@
 # Oma Linux
 
+
 ## Tiivistelmä artikkelista "What is Free Software?"
 
 - Ilmaisella sovelluksella tarkoitetaan kaikkien käytössä olevaa sovellusta
@@ -15,4 +16,10 @@
 
   GNU Operating System. What is Free Software? Luettavissa: https://www.gnu.org/philosophy/free-sw.html Luettu: 20.01.2024.
 
-  
+
+  ## Linuxin asentaminen virtuaalikoneeseen
+
+  Tehtävässä on käytetty Debian Linuxia, ja asennettu se VirtualBoxiin.
+
+  Latasin Debian ISO imagen netistä. Tässä asennuksessa käytin versiota 12.4.0 xfce-työpöytäympäristöä.
+  Latasin myös Oraclen VirtualBoxin ja asensin sen tietokoneelleni.
