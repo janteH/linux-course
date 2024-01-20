@@ -39,3 +39,9 @@ Lisäsin RAM muistia, muutaman prosessorin lisää, ja loin kovalevyn.
 
 ![step3](./images/step3.png)
 
+#### Virtuaalikoneen käynnistys ja asennus
+
+Kohtasin tässä ongelmaan, ettei virtuaalikoneeni käynnisty. Sain virheeksi AMD-V is disabled in the BIOS (or by the host OS) (VERR_SVM_DISABLED).
+
+Googletin ongelmaa, ja kokeilin luoda Virtuaalikoneen uudelleen vain yhdellä prosessorilla. <br>
+Tämä ei kuitenkaan auttanut, joten päätin bootata koneeni BIOS:iin ja tutkia sieltä, pystynkö enabloimaan prosessorin asetuksista Secure Virtual Machine Moden
