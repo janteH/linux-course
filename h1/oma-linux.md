@@ -139,3 +139,8 @@ Odotellaan asennus, ja bootataan järjestelmä
 
     sudo reboot
 
+Kirjaudutaan sisään, ja kokeillaan suurentaa ikkunaa.
+
+![step13](./images/step13.png)
+
+Hurraa! Se toimii!
