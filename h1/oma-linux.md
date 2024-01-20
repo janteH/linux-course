@@ -144,3 +144,9 @@ Kirjaudutaan sisään, ja kokeillaan suurentaa ikkunaa.
 ![step13](./images/step13.png)
 
 Hurraa! Se toimii!
+
+###### Lähteet
+
+Terokarvinen.com. Install Debian on Virtualbox - Updated 2023. Luettavissa: https://terokarvinen.com/2021/install-debian-on-virtualbox/?fromSearch=virtual%20box Luettu: 20.01.2024.
+
+Appuals.com. Fix: AMD-V is disabled in the BIOS (VERR_SVM_DISABLED). Luettavissa: https://appuals.com/fix-amd-v-is-disabled-in-the-bios-verr_svm_disabled/ Luettu: 20.01.2024.
