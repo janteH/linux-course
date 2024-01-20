@@ -69,7 +69,7 @@ Klikkasin työpöydältä Install Debian -kuvaketta. Ilmoitukseen Launch Anyway.
 
 Kieleksi englanti, lokaatioksi Helsinki, näppäimistö finnish.
 
-Partitios; Erase disk ilman kryptausta, Boot loader Master Boot...
+Partitions; Erase disk ilman kryptausta, Boot loader Master Boot...
 
 ![step7](./images/step7.png)
 
@@ -77,5 +77,5 @@ Käyttäjätietoihin nimi, käyttäjänimi, koneen nimi ja salasana.
 
 Summaryn tarkistus ja install. Asennuksen odottelu.
 
-![step7](./images/step7.png)
+![step8](./images/step8.png)
 
