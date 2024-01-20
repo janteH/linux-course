@@ -39,7 +39,7 @@ Lisäsin RAM muistia, muutaman prosessorin lisää, ja loin kovalevyn.
 
 ![step3](./images/step3.png)
 
-#### Virtuaalikoneen käynnistys ja asennus
+#### Virtuaalikoneen käynnistys
 
 Kohtasin tässä ongelmaan, ettei virtuaalikoneeni käynnisty. Sain virheeksi AMD-V is disabled in the BIOS (or by the host OS) (VERR_SVM_DISABLED).
 
@@ -47,7 +47,35 @@ Googletin ongelmaa, ja kokeilin luoda Virtuaalikoneen uudelleen vain yhdellä pr
 Tämä ei kuitenkaan auttanut, joten päätin bootata koneeni BIOS:iin ja tutkia sieltä, pystynkö enabloimaan prosessorin asetuksista Secure Virtual Machine Moden
 
 Löysin BIOS asetuksista SVM (Secure Virtual Machine Mode) asetuksen, jonka nyt sallin. <br>
-Tämä ei kuitenkaan auttanut.
+Tämä auttoi, ja sain virtuaalikoneen käyntiin.
 
-Tarkistin, että Windows Hyper-V asetus on disabled. Ei auttanut.
+Käynnistin Debianin Live system (amd64).
+
+![step4](./images/step4.png)
+
+Käynnistyksessä painoin esc -näppäintä, niin sain näkymän prosessista. Hetken kuluttua työpöytä avautui näkyviin.
+
+![step5](./images/step5.png)
+
+Testasin asennusta toimivaksi käynnistämällä verkkoselaimen.
+
+![step6](./images/step6.png)
+
+Havaittu, että kaikki toimii (hiiri, näppäimistö, netti ja näyttö)
+
+#### Asennus
+
+Klikkasin työpöydältä Install Debian -kuvaketta. Ilmoitukseen Launch Anyway.
+
+Kieleksi englanti, lokaatioksi Helsinki, näppäimistö finnish.
+
+Partitios; Erase disk ilman kryptausta, Boot loader Master Boot...
+
+![step7](./images/step7.png)
+
+Käyttäjätietoihin nimi, käyttäjänimi, koneen nimi ja salasana.
+
+Summaryn tarkistus ja install. Asennuksen odottelu.
+
+![step7](./images/step7.png)
 
