@@ -27,5 +27,5 @@
 
   Käynnistin VirtualBoxin sovelluksen latauksen jälkeen, ja valitsin ikkunasta "New"
 
-  ![New](.\images\new.png)
+  ![New](..images\new.png)
   
