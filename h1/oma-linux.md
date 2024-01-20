@@ -17,15 +17,18 @@
   GNU Operating System. What is Free Software? Luettavissa: https://www.gnu.org/philosophy/free-sw.html Luettu: 20.01.2024.
 
 
-  ## Linuxin asentaminen virtuaalikoneeseen
+## Linuxin asentaminen virtuaalikoneeseen
 
-  Tehtävässä on käytetty Debian Linuxia, ja asennettu se VirtualBoxiin.
+Tehtävässä on käytetty Debian Linuxia, ja asennettu se VirtualBoxiin.
 
-  Latasin Debian ISO imagen netistä. Tässä asennuksessa käytin versiota 12.4.0 xfce-työpöytäympäristöä. Latasin myös Oraclen VirtualBoxin ja asensin sen tietokoneelleni.
+Latasin Debian ISO imagen netistä. Tässä asennuksessa käytin versiota 12.4.0 xfce-työpöytäympäristöä. Latasin myös Oraclen VirtualBoxin ja asensin sen tietokoneelleni.
 
-  #### Virtuaalikoneen luominen VirtualBoxiin
+#### Virtuaalikoneen luominen VirtualBoxiin
 
-  Käynnistin VirtualBoxin sovelluksen latauksen jälkeen, ja valitsin ikkunasta "New"
+Käynnistin VirtualBoxin sovelluksen latauksen jälkeen, ja valitsin ikkunasta "New"
 
-  ![New](./images/new.png)
+![New](./images/new.png)
   
+Nimesin virtuaalikoneen, valitsin ladatun ISO imagen, tyypiksi Linux, versio Debian 64-bit. Ja ruksi ruutuun skip unattanded installation.
+
+![step1](./images/step1.png)
