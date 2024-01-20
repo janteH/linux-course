@@ -21,5 +21,11 @@
 
   Tehtävässä on käytetty Debian Linuxia, ja asennettu se VirtualBoxiin.
 
-  Latasin Debian ISO imagen netistä. Tässä asennuksessa käytin versiota 12.4.0 xfce-työpöytäympäristöä.
-  Latasin myös Oraclen VirtualBoxin ja asensin sen tietokoneelleni.
+  Latasin Debian ISO imagen netistä. Tässä asennuksessa käytin versiota 12.4.0 xfce-työpöytäympäristöä. Latasin myös Oraclen VirtualBoxin ja asensin sen tietokoneelleni.
+
+  #### Virtuaalikoneen luominen VirtualBoxiin
+
+  Käynnistin VirtualBoxin sovelluksen latauksen jälkeen, ja valitsin ikkunasta "New"
+
+  ![New](.\images\new.png)
+  
