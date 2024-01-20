@@ -116,7 +116,7 @@ Uudelleen käynnistys, ja sisään kirjautuminen.
 
 #### Guest additions
 
-Asennetaan VirtualBox Guest Additions, jotta saadaan näyttöä suurennettua ja ainakin copy-paste toiminta tietokoneiden välille.
+Asennetaan VirtualBox Guest Additions, jotta saadaan näyttöä suurennettua.
 
 Valitaan ylärivistä Devices, Insert Guest Additions CD image... <br>
 Avataan File Manager ja valitaan lisätty levy näkyviin, jotta nähdään tiedoston polku.
