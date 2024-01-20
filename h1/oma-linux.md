@@ -79,3 +79,15 @@ Summaryn tarkistus ja install. Asennuksen odottelu.
 
 ![step8](./images/step8.png)
 
+"All done." "Restart now" - Yes. Click "Done."
+
+#### Kirjautuminen virtuaalikoneelle
+
+Kirjautuminen sisään määritellyillä tunnuksilla.
+
+![step9](./images/step9.png)
+
+Testataan järjestlemää taas toimivaksi avaamalla selaimesta youtube, ja pyöräyttämällä muutama kissavideo.
+
+![step10](./images/step10.png)
+
