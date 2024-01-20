@@ -91,3 +91,22 @@ Testataan järjestlemää taas toimivaksi avaamalla selaimesta youtube, ja pyör
 
 ![step10](./images/step10.png)
 
+#### Ensimmäinen vaihe
+
+Päivitetään järjestelmä terminaalin kautta.
+
+    sudo apt-get update
+
+Tunnuksen salasanan kirjoitus ja katsellaan kun paketit valuu sisään.
+
+Asennetaan haetut paketit.
+
+    sudo apt-get -y dist-upgrade
+
+Odotellaan asennus.
+
+Asennetaan palomuuri ja sen aktivointi.
+
+    sudo apt-get -y -install ufw
+    sudo ufw enable
+
