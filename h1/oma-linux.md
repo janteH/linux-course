@@ -48,3 +48,6 @@ Tämä ei kuitenkaan auttanut, joten päätin bootata koneeni BIOS:iin ja tutkia
 
 Löysin BIOS asetuksista SVM (Secure Virtual Machine Mode) asetuksen, jonka nyt sallin. <br>
 Tämä ei kuitenkaan auttanut.
+
+Tarkistin, että Windows Hyper-V asetus on disabled. Ei auttanut.
+
