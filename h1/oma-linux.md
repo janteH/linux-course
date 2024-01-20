@@ -114,3 +114,28 @@ Asennetaan palomuuri ja sen aktivointi.
 
 Uudelleen käynnistys, ja sisään kirjautuminen.
 
+#### Guest additions
+
+Asennetaan VirtualBox Guest Additions, jotta saadaan näyttöä suurennettua ja ainakin copy-paste toiminta tietokoneiden välille.
+
+Valitaan ylärivistä Devices, Insert Guest Additions CD image... <br>
+Avataan File Manager ja valitaan lisätty levy näkyviin, jotta nähdään tiedoston polku.
+
+Avataan terminaali, mennään kansioon ajamaan VBoxLinuxAdditions.run
+
+    cd /media/*/VBox*
+
+Tällä komennolla pääsemme oikeaan kansioon ja seuraavalla komennolla näemme listan kansiossa olevista tiedostoista
+
+    ls
+
+![step12](./images/step12.png)
+
+Seuraavaksi ajetaan sudona .run päätteinen tiedosto.
+
+    sudo bash VBoxLinuxAdditions.run
+
+Odotellaan asennus, ja bootataan järjestelmä
+
+    sudo reboot
+
