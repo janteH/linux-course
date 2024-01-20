@@ -95,6 +95,8 @@ Testataan järjestlemää taas toimivaksi avaamalla selaimesta youtube, ja pyör
 
 Päivitetään järjestelmä terminaalin kautta.
 
+![step11](./images/step11.png)
+
     sudo apt-get update
 
 Tunnuksen salasanan kirjoitus ja katsellaan kun paketit valuu sisään.
@@ -109,4 +111,6 @@ Asennetaan palomuuri ja sen aktivointi.
 
     sudo apt-get -y -install ufw
     sudo ufw enable
+
+Uudelleen käynnistys, ja sisään kirjautuminen.
 
