@@ -32,3 +32,10 @@ Käynnistin VirtualBoxin sovelluksen latauksen jälkeen, ja valitsin ikkunasta "
 Nimesin virtuaalikoneen, valitsin ladatun ISO imagen, tyypiksi Linux, versio Debian 64-bit. Ja ruksi ruutuun skip unattanded installation.
 
 ![step1](./images/step1.png)
+
+Lisäsin RAM muistia, muutaman prosessorin lisää, ja loin kovalevyn.
+
+![step2](./images/step2.png)
+
+![step3](./images/step3.png)
+
