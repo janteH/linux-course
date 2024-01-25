@@ -119,8 +119,31 @@ Sisältää järjestelmänlaajuiset lokit.
 
 ## Grep komento
 
--
--
+Grep komennolla voi etsiä ehtoihin määriteltyjä asioita tiedostosta.
+
+Esimerkiksi komennolla:
+
+    grep -w "cat" --color catipsum.txt
+
+Voimme etsiä kaikki rivit, joissa "cat" sana tiedostosta catipsum.txt ja värittää ne. '-w' parametri määrittää, että ainoastaan "cat" -sana lasketaan mukaan. Eikä esimerkiksi "cats" tai "catch".
+
+![grep-1](./images/grep-1.png)
+
+Toinen esimerkki komennolla:
+
+    grep -c "cat" catipsum.txt
+
+Tässä lasketaan vastaava merkkijono, kuinka monta kertaa se toistuu tiedostossa.
+
+![grep-2](./images/grep-2.png)
+
+Kolmas esimerkki. Voimme etsiä monesta eri tiedostosta komennolla:
+
+    grep -l "cat" *
+
+Tämä näyttää, missä tiedostoissa on haettu sana.
+
+![grep-3](./images/grep-3.png)
 
 ## Pipe komento
 
