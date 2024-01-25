@@ -27,8 +27,13 @@
 
 ## Apt. Ohjelmien asennus
 
--
--
+Ohjelmien asennus apt-get -komennolla
+
+Jos halutaan asentaa monta ohjelmaa, voi ne laittaa komentoon peräkkäin. Esimerkiksi tässä asennetaan ohjelmat screen, irssi ja vim
+
+    sudo apt-get install screen irssi vim -y
+
+![apt-get](./images/apt-get.png)
 
 ## FHS. Kansiot
 
