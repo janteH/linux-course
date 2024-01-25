@@ -1,9 +1,11 @@
 ## Command line basics
 
--
--
--
--
+- Liikkuminen kirjastossa
+  - 'pwd' tulostaa kirjaston, jossa ollaan
+  - 'ls' listaa tiedostot ja kansiot, jossa ollaan
+  - 'cd' eli change directory. Voidaan käyttää eri tavoin kansiossa liikkumiseen 'cd ..' tai 'cd xyz/'
+- 'less xyz.txt' näyttää tekstitiedoston (välilyönti ja "b" sivujen kelaus, "/" hakutoiminto, "q" lopetus)
+- 
 
 ## Micro-editorin asennus
 
