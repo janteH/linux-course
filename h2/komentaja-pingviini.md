@@ -84,6 +84,8 @@ Ja lopetus komennolla ':q' <br>
 
 ###### Lähteet
 
+freeCodeCamp.org https://www.freecodecamp.org/news/vim-beginners-guide/
+
 Irssi.org https://irssi.org/New-users/ 
 
 Linuxize.com https://linuxize.com/post/how-to-use-linux-screen/ 
