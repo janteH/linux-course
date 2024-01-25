@@ -35,6 +35,26 @@ Jos halutaan asentaa monta ohjelmaa, voi ne laittaa komentoon peräkkäin. Esime
 
 ![apt-get](./images/apt-get.png)
 
+#### screen
+
+Screenillä pystyy käynnistämään ja käyttämään useita shell-istuntoja yhdestä ssh-istunnosta. Käytännössä screeniin saa esimerkiksi irssin tai vaikka Minecraft serverin pyörimään taustalle.
+
+Komennolla 'screen' saa ohjelman käyntiin. Näppäimillä ctrl+a ja ? näkee esimerkiksi eri näppäimien toiminnot.
+
+![screen-1](./images/screen-1.png)
+
+#### irssi
+
+Modulaarinen tekstitilan chat ohjelma.
+
+![irssi-1](./images/irssi-1.png)
+
+Chat kanaville voi esimerkiksi liittyä komennolla: /j kanavannimi
+
+#### vim
+
+
+
 ## FHS. Kansiot
 
 -
@@ -57,6 +77,12 @@ Jos halutaan asentaa monta ohjelmaa, voi ne laittaa komentoon peräkkäin. Esime
 
 ###### Lähteet
 
-Terokarvinen.com. https://terokarvinen.com/2020/command-line-basics-revisited/
+Irssi.org https://irssi.org/New-users/ 
 
-Terokarvinen.com. https://terokarvinen.com/2024/linux-palvelimet-2024-alkukevat/
+Linuxize.com https://linuxize.com/post/how-to-use-linux-screen/ 
+
+Terokarvinen.com. https://terokarvinen.com/2020/command-line-basics-revisited/ 
+
+Terokarvinen.com. https://terokarvinen.com/2024/linux-palvelimet-2024-alkukevat/ 
+
+
