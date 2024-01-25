@@ -95,6 +95,10 @@ Nyt olemme niin sanotusti kotien kotihakemistossa. Katsotaan vielä 'ls' -komenn
 
 #### /home/jante/
 
+Käyttäjän kotihakemisto. Ainoa sijainti, johon kyseinen käyttäjä pystyy tallentamaan dataa pysyvästi.
+
+![fhs-4](./images/fhs-4.png)
+
 #### /etc/
 
 #### /media/
