@@ -107,7 +107,15 @@ Sisältää järjestelmän asetustiedostot lukukelpoisina tekstitiedostoina.
 
 #### /media/
 
+Root hakemiston alla. Näyttää koneeseen kytketyt "mediat" kuten USB-tikut tai CD-levyt
+
+![fhs-6](./images/fhs-6.png)
+
 #### /var/log/
+
+Sisältää järjestelmänlaajuiset lokit.
+
+![fhs-7](./images/fhs-7.png)
 
 ## Grep komento
 
