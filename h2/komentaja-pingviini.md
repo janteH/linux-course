@@ -69,10 +69,29 @@ Editointi tilasta pääsee "esc" -näppäimellä pois <br>
 Tallennus tapahtuu komennolla ':w' <br>
 Ja lopetus komennolla ':q' <br>
 
-## FHS. Kansiot
+## FHS - Filesystem Hierarchy Standard
 
--
--
+#### /
+
+Root -kansio. Kaikki muut on tämän kansion alla.
+
+Avataan komentokehote. 'pwd' -komento näyttää, että olemme käyttäjän kotikansiossa.
+
+![fhs-1](./images/fhs-1.png)
+
+Komennolla 'cd /' pääsemme suoraan "root" hakemistoon. 'pwd':llä vielä tarkistus.
+
+![fhs-2](./images/fhs-2.png)
+
+#### /home/
+
+#### /home/jante/
+
+#### /etc/
+
+#### /media/
+
+#### /var/log/
 
 ## Grep komento
 
