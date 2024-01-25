@@ -18,7 +18,7 @@
 
 - Avataan komentokehote ja asennetaan Micro -editori sovellus komennolla
 
-  sudo apt-get -y install micro
+      sudo apt-get -y install micro
 
 ## Raudan testaus
 
