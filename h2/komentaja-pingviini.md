@@ -5,7 +5,14 @@
   - 'ls' listaa tiedostot ja kansiot, jossa ollaan
   - 'cd' eli change directory. Voidaan käyttää eri tavoin kansiossa liikkumiseen 'cd ..' tai 'cd xyz/'
 - 'less xyz.txt' näyttää tekstitiedoston (välilyönti ja "b" sivujen kelaus, "/" hakutoiminto, "q" lopetus)
-- 
+- 'nano xyz.txt' avaa muokkaustilan tekstitiedostolle ohjelmassa nano
+- 'mkdir xyz' tekee uuden kansion nimeltä xyz
+- 'mv' komennolla voi liikutella tai nimetä tiedostoja uudelleen
+  - 'mv vanhanimi uusinimi'
+  - 'mv tiedosto uusisijainti/'
+- 'cp' -komennolla voidaan kopioida tiedostoja tai kansioita
+- 'rmdir tyhjäkansio' poistaa kansion, joka on tyhjä
+- 'rm' komennolla voidaan poistaa tiedostoja ja parametrilla '-r' kansioita
 
 ## Micro-editorin asennus
 
