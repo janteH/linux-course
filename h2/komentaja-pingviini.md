@@ -85,6 +85,14 @@ Komennolla 'cd /' pääsemme suoraan "root" hakemistoon. 'pwd':llä vielä tarki
 
 #### /home/
 
+Kotihakemisto kaikkien käyttäjien kotihakemistoille.
+
+'pwd':llä nähdään taas, että olemme käyttäjän kotihakemistossa. Mennään yksi hakemisto ylemmäksi komennolla 'cd ..'
+
+Nyt olemme niin sanotusti kotien kotihakemistossa. Katsotaan vielä 'ls' -komennolla, että tässä kansiossa on käyttäjät. Tässä tapauksessa käyttäjiä on vain yksi.
+
+![fhs-3](./images/fhs-3.png)
+
 #### /home/jante/
 
 #### /etc/
