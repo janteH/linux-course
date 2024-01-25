@@ -159,6 +159,10 @@ Tämä näyttää, missä tiedostoissa on haettu sana.
 
 freeCodeCamp.org https://www.freecodecamp.org/news/vim-beginners-guide/
 
+freeCodeCamp.org https://www.freecodecamp.org/news/grep-command-in-linux-usage-options-and-syntax-examples/
+
+grep(1) - Linux manual page. https://man7.org/linux/man-pages/man1/grep.1.html#EXAMPLE
+
 Irssi.org https://irssi.org/New-users/ 
 
 Linuxize.com https://linuxize.com/post/how-to-use-linux-screen/ 
