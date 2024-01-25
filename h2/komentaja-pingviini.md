@@ -22,8 +22,15 @@
 
 ## Raudan testaus
 
--
--
+Asennetaan lshw
+
+    sudo apt-get install lshw -y
+
+Listataan koneen rauta komennolla
+
+    sudo lshw -short -sanitize
+
+![lshw-1](./images/lshw-1.png)
 
 ## Apt. Ohjelmien asennus
 
