@@ -101,6 +101,10 @@ Käyttäjän kotihakemisto. Ainoa sijainti, johon kyseinen käyttäjä pystyy ta
 
 #### /etc/
 
+Sisältää järjestelmän asetustiedostot lukukelpoisina tekstitiedostoina.
+
+![fhs-5](./images/fhs-5.png)
+
 #### /media/
 
 #### /var/log/
