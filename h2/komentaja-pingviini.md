@@ -53,7 +53,14 @@ Chat kanaville voi esimerkiksi liittyä komennolla: /j kanavannimi
 
 #### vim
 
+Tekstieditointi ohjelma.
 
+![vim-1](./images/vim-1.png)
+
+Vimissä tekstiä editoidaan komennolla 'i' <br>
+Editointi tilasta pääsee "esc" -näppäimellä pois <br>
+Tallennus tapahtuu komennolla ':w' <br>
+Ja lopetus komennolla ':q' <br>
 
 ## FHS. Kansiot
 
