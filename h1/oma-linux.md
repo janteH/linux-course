@@ -21,6 +21,18 @@
 
 Tehtävässä on käytetty Debian Linuxia, ja asennettu se VirtualBoxiin.
 
+Fyysinen rauta, jolle asennus on tehty:
+
+- OS Microsoft Windows 10 Home
+- Version 10.0.19045 Build 19045
+- System type x64-based PC
+- Processor AMD Ryzen 5 1600X Six-Core Processor, 3600 Mhz, 6 Core(s), 12 Logical Processor(s)
+- BIOS Version/Date	American Megatrends Inc. 2.NS, 01/11/2021
+- BaseBoard Manufacturer MSI
+- BaseBoard Product	B350M GAMING PRO (MS-7A39)
+- Installed Physical Memory (RAM) 16,0 GB
+- GPU NVIDIA GeForce RTX 2070 SUPER (Manufacturer MSI)
+
 Latasin Debian ISO imagen netistä. Tässä asennuksessa käytin versiota 12.4.0 xfce-työpöytäympäristöä. Latasin myös Oraclen VirtualBoxin ja asensin sen tietokoneelleni.
 
 #### Virtuaalikoneen luominen VirtualBoxiin
