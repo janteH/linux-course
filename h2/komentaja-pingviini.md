@@ -32,6 +32,10 @@ Listataan koneen rauta komennolla
 
 ![lshw-1](./images/lshw-1.png)
 
+Kuvassa H/W path on polku, jota voisi ajatella emolevyn "slotteina", jossa laite on kiinni. Voi olla myös integroitu "slotti". Numero kertoo "slotin" ja "lanen" eli mihin kyseinen laite on kytketty.
+
+Device sarake kertoo laitteen loogisen tyypin. Ja Class -sarake luokan. Description kentässä lyhyt selitys ko. laittelle.
+
 ## Apt. Ohjelmien asennus
 
 Ohjelmien asennus apt-get -komennolla
@@ -145,10 +149,29 @@ Tämä näyttää, missä tiedostoissa on haettu sana.
 
 ![grep-3](./images/grep-3.png)
 
-## Pipe komento
+## Pipe komento '|'
 
--
--
+Putkikomennon ensisijainen tarkoitus on yhdistää yhden komennon tuloste suoraan toisen komennon syötteeseen.
+
+Esimerkiksi näin:
+
+    komenti1 | komento2
+
+Komento1 on ensimmäinen komento, jonka tuloste toimii seuraavan komennon syötteenä.
+
+Käytännössä komento voisi mennä näin:
+
+    ls -l | grep '.txt'
+
+Komento listaa kansiossa olevat tekstitiedostot.
+
+![pipe-1](./images/pipe-1.png)
+
+Tai komento, joka näyttää listan asennetuista ohjelmista
+
+    history | grep apt
+
+![pipe-2](./images/pipe-2.png)
 
 ## Tukki
 
@@ -156,6 +179,8 @@ Tämä näyttää, missä tiedostoissa on haettu sana.
 -
 
 ###### Lähteet
+
+Deep Hardware Discovery With lshw and lsusb on Linux. linux.com. https://www.linux.com/training-tutorials/deep-hardware-discovery-lshw-and-lsusb-linux/
 
 freeCodeCamp.org https://www.freecodecamp.org/news/vim-beginners-guide/
 
@@ -167,8 +192,8 @@ Irssi.org https://irssi.org/New-users/
 
 Linuxize.com https://linuxize.com/post/how-to-use-linux-screen/ 
 
+pipe Command in Linux. Scaler.com https://www.scaler.com/topics/pipe-command-in-linux/
+
 Terokarvinen.com. https://terokarvinen.com/2020/command-line-basics-revisited/ 
 
 Terokarvinen.com. https://terokarvinen.com/2024/linux-palvelimet-2024-alkukevat/ 
-
-
