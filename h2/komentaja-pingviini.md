@@ -173,10 +173,17 @@ Tai komento, joka näyttää listan asennetuista ohjelmista
 
 ![pipe-2](./images/pipe-2.png)
 
-## Tukki
+## Logit
 
--
--
+Avataan komentokehote, ja suoritetaan komento, jotta saadaan näkyviin reaaliaikaiset logit
+
+    sudo journalctl -f
+
+Esimerkki, miltä salasanan väärin kirjoittaminen näyttäisi logista. Avataan toinen komentokehote viereen, ja kokeillaan kirjautua pääkäyttäjäksi ensin virheellisellä salasanalla, jonka jälkeen oikealla salasanalla.
+
+![logs-1](./images/logs-1.png)
+
+Kuvassa näkyy punaisella korostettuna virheellinen autentikointi, ja keltaisella onnistunut autentikointi.
 
 ###### Lähteet
 
