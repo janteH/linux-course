@@ -155,7 +155,7 @@ Putkikomennon ensisijainen tarkoitus on yhdistää yhden komennon tuloste suoraa
 
 Esimerkiksi näin:
 
-    komenti1 | komento2
+    komento1 | komento2
 
 Komento1 on ensimmäinen komento, jonka tuloste toimii seuraavan komennon syötteenä.
 
@@ -187,20 +187,24 @@ Kuvassa näkyy punaisella korostettuna virheellinen autentikointi, ja keltaisell
 
 ###### Lähteet
 
-Deep Hardware Discovery With lshw and lsusb on Linux. linux.com. https://www.linux.com/training-tutorials/deep-hardware-discovery-lshw-and-lsusb-linux/
 
-freeCodeCamp.org https://www.freecodecamp.org/news/vim-beginners-guide/
 
-freeCodeCamp.org https://www.freecodecamp.org/news/grep-command-in-linux-usage-options-and-syntax-examples/
+FreeCodeCamp.org. How to Use Vim – Tutorial for Beginners. Luettavissa: https://www.freecodecamp.org/news/vim-beginners-guide/ Luettu: 27.01.2024.
 
-grep(1) - Linux manual page. https://man7.org/linux/man-pages/man1/grep.1.html#EXAMPLE
+FreeCodeCamp.org. Grep Command in Linux – Usage, Options, and Syntax Examples. Luettavissa: https://www.freecodecamp.org/news/grep-command-in-linux-usage-options-and-syntax-examples/ Luettu: 27.01.2024.
 
-Irssi.org https://irssi.org/New-users/ 
+Irssi.org. New users guide. Luettavissa: https://irssi.org/New-users/ Luettu: 27.01.2024.
 
-Linuxize.com https://linuxize.com/post/how-to-use-linux-screen/ 
+Linux.com. Deep Hardware Discovery With lshw and lsusb on Linux. Luettavissa: https://www.linux.com/training-tutorials/deep-hardware-discovery-lshw-and-lsusb-linux/ Luettu: 27.01.2024.
 
-pipe Command in Linux. Scaler.com https://www.scaler.com/topics/pipe-command-in-linux/
+Linuxize.com. How To Use Linux Screen. Luettavissa: https://linuxize.com/post/how-to-use-linux-screen/ Luettu: 27.01.2024.
 
-Terokarvinen.com. https://terokarvinen.com/2020/command-line-basics-revisited/ 
+Man(7).org. Grep(1) - Linux manual page. Luettavissa: https://man7.org/linux/man-pages/man1/grep.1.html#EXAMPLE Luettu: 27.01.2024.
 
-Terokarvinen.com. https://terokarvinen.com/2024/linux-palvelimet-2024-alkukevat/ 
+Scaler.com. Pipe Command in Linux. Luettavissa: https://www.scaler.com/topics/pipe-command-in-linux/ Luettu: 27.01.2024.
+
+TechAdmin.net. Understanding the Difference Between ‘sudo su -‘ and ‘sudo -i’. Luettavissa: https://tecadmin.net/understanding-the-difference-between-sudo-su-dash-and-sudo-i/ Luettu 27.01.2024.
+
+Terokarvinen.com. Command Line Basics Revisited. Luettavissa: https://terokarvinen.com/2020/command-line-basics-revisited/ Luettu: 27.01.2024.
+
+Terokarvinen.com. Linux Palvelimet 2024 alkukevät. Luettavissa: https://terokarvinen.com/2024/linux-palvelimet-2024-alkukevat/ Luettu: 27.01.2024.
