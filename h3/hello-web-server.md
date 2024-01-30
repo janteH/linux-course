@@ -6,16 +6,16 @@
 
 ###### Lähde
 
-Name-based Virtual Host Support. Apache.org. Luettavissa: https://httpd.apache.org/docs/2.4/vhosts/name-based.html Luettu: 30.1.2024
+Name-based Virtual Host Support. Apache.org. Luettavissa: https://httpd.apache.org/docs/2.4/vhosts/name-based.html Luettu: 30.1.2024.
 
 ## Name Based Virtual Hosts on Apache – Multiple Websites to Single IP Address
 
--
--
+- Apachella voi olla useita verkkotunnuksia yhdessä IP-osoitteessa.
+- Sivustoja voi lisätä tekemällä uuden nimipohjaisen virtual hostin.
 
 ###### Lähde
 
-Name Based Virtual Hosts on Apache – Multiple Websites to Single IP Address. Terokarvinen.com. Luettavissa: https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/ Luettu: 
+Name Based Virtual Hosts on Apache – Multiple Websites to Single IP Address. Terokarvinen.com. Luettavissa: https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/ Luettu: 30.1.2024.
 
 # Apache
 
