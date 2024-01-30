@@ -43,10 +43,9 @@ Name Based Virtual Hosts on Apache – Multiple Websites to Single IP Address. T
 -
 -
 
-## GitHub Edu
+## GitHub Education
 
--
--
+- Lähetetty hakemus Github Educationista 30.1.2024
 
 ## Nimipohjainen virtuaalipalvelu
 
