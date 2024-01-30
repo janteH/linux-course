@@ -1,11 +1,12 @@
 ## Name-based Virtual Host Support
 
--
--
+- Nimipohjaiset virtuaalipalvelimet voivat jakaa saman IP osoitteen
+- DNS palvelinta käytetään yhdistämään isäntänimi oikeaan IP-osoitteeseen
+- 
 
 ###### Lähde
 
-Name-based Virtual Host Support. Apache.org Luettavissa: https://httpd.apache.org/docs/2.4/vhosts/name-based.html Luettu:
+Name-based Virtual Host Support. Apache.org. Luettavissa: https://httpd.apache.org/docs/2.4/vhosts/name-based.html Luettu: 30.1.2024
 
 ## Name Based Virtual Hosts on Apache – Multiple Websites to Single IP Address
 
