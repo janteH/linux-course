@@ -1,8 +1,8 @@
 ## Name-based Virtual Host Support
 
-- Nimipohjaiset virtuaalipalvelimet voivat jakaa saman IP osoitteen
-- DNS palvelinta käytetään yhdistämään isäntänimi oikeaan IP-osoitteeseen
-- 
+- IP-pohjaiset virtuaaliset hostit käyttävät IP-osoitetta oikean virtuaalisen hostin määrittämiseen; Tällöin on oltava jokaiselle hostille oma IP osoite.
+- Nimipohjaisessa virtuaalihostauksessa palvelin luottaa siihen, että asiakas ilmoittaa hostnamen osana HTTP-otsikkoa; Tätä tekniikkaa käyttämällä monet eri hostit voivat jakaa saman IP-osoitteen.
+- DNS palvelinta käytetään yhdistämään hostname oikeaan IP-osoitteeseen
 
 ###### Lähde
 
