@@ -21,8 +21,11 @@ Name Based Virtual Hosts on Apache – Multiple Websites to Single IP Address. T
 
 ## Apachen asennus
 
--
--
+    sudo apt-get install apache2
+
+Testaus:
+
+    firefox "http://localhost" 
 
 ## Lokien analysointi
 
@@ -31,7 +34,34 @@ Name Based Virtual Hosts on Apache – Multiple Websites to Single IP Address. T
 
 ## Etusivu uusiksi
 
+Luodaan uusi etusivu localhostille.
+
+![hattu-2](./images/hattu-2.png)
+
+Ensin uusi konffi tiedosto hattu.example.conf lisätään sites-availablen alle.
+
+![hattu-3](./images/hattu-3.png)
+
+![hattu-4](./images/hattu-4.png)
+
+Lisätään konffitiedostoon tarvittavat tiedot:
+
+![hattu-1](./images/hattu-1.png)
+
+Sitten lisätään kotihakemistoon määritelty paikka, johon index.html
+
+![hattu-5](./images/hattu-5.png)
+
+![hattu-6](./images/hattu-6.png)
+
+![hattu-7](./images/hattu-7.png)
+
+Sitten disabloidaan vanha sivu:
+
 -
+
+Ja enabloidaan uusi sivu:
+
 -
 
 ## HTML5 -sivu
