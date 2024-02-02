@@ -46,6 +46,8 @@ Ensin uusi konffi tiedosto hattu.example.conf lisätään sites-availablen alle.
 
 Lisätään konffitiedostoon tarvittavat tiedot:
 
+    sudoedit hattu.example.conf
+
 ![hattu-1](./images/hattu-1.png)
 
 Sitten lisätään kotihakemistoon määritelty paikka, johon index.html
