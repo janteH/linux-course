@@ -108,6 +108,8 @@ Komento palauttaa webbisivun HTML-sisällön.
 - Lähetetty hakemus Github Educationista 30.1.2024
 - Hyväksytty hakemus 2.2.2024
 
+/*
+
 ## Nimipohjainen virtuaalipalvelu
 
 -
@@ -117,6 +119,8 @@ Komento palauttaa webbisivun HTML-sisällön.
 
 -
 -
+
+*/
 
 ##### Lähteet
 
