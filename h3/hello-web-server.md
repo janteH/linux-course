@@ -108,20 +108,6 @@ Komento palauttaa webbisivun HTML-sisällön.
 - Lähetetty hakemus Github Educationista 30.1.2024
 - Hyväksytty hakemus 2.2.2024
 
-/*
-
-## Nimipohjainen virtuaalipalvelu
-
--
--
-
-## Kaksi eri sivua, sama osoite
-
--
--
-
-*/
-
 ##### Lähteet
 
 Terokarvinen.com. Linux Palvelimet 2024 alkukevät. Luettavissa: https://terokarvinen.com/2024/linux-palvelimet-2024-alkukevat/ Luettu: 04.02.2024
