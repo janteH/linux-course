@@ -60,16 +60,33 @@ Sitten lisätään kotihakemistoon määritelty paikka, johon index.html
 
 Sitten disabloidaan vanha sivu:
 
--
+    sudo a2dissite jante.example.conf
+
+![hattu-8](./images/hattu-8.png)
+
+Apachen uudelleen käynnistys:
+
+    sudo systemctl restart apache2
 
 Ja enabloidaan uusi sivu:
 
--
+    sudo a2ensite hattu.example.conf
+
+![hattu-9](./images/hattu-9.png)
+
+ja apachen uudelleen käynnistys
+
+    sudo systemctl restart apache2
 
 ## HTML5 -sivu
 
--
--
+Muokataan sivusta validi HTML sivu ja tarkisteaan se validatorilla (https://validator.w3.org/)
+
+![hattu-10](./images/hattu-10.png)
+
+Validator huomautti kielen määrityksestä, joten lisäsin tämän vielä html tagiin.
+
+![hattu-11](./images/hattu-11.png)
 
 ## Curl -komento
 
