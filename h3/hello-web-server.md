@@ -29,8 +29,15 @@ Testaus:
 
 ## Lokien analysointi
 
--
--
+Logit löytyvät /var/log/apache2
+
+![logs-1](./images/logs-1.png)
+
+Logeja voi tarkastella komennolla:
+
+    tail /var/log/apache2/error.log
+
+![logs-2](./images/logs-2.png)
 
 ## Etusivu uusiksi
 
@@ -90,12 +97,16 @@ Validator huomautti kielen määrityksestä, joten lisäsin tämän vielä html 
 
 ## Curl -komento
 
--
--
+#### curl
+
+Komento palauttaa webbisivun HTML-sisällön.
+
+![curl-1](./images/curl-1.png)
 
 ## GitHub Education
 
 - Lähetetty hakemus Github Educationista 30.1.2024
+- Hyväksytty hakemus 2.2.2024
 
 ## Nimipohjainen virtuaalipalvelu
 
@@ -109,3 +120,4 @@ Validator huomautti kielen määrityksestä, joten lisäsin tämän vielä html 
 
 ##### Lähteet
 
+Terokarvinen.com. Linux Palvelimet 2024 alkukevät. Luettavissa: https://terokarvinen.com/2024/linux-palvelimet-2024-alkukevat/ Luettu: 04.02.2024
