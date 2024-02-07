@@ -141,6 +141,12 @@ Testaus vielä, että ohjaus toimii. Kirjaudutaan nyt ssh:lla käyttäjä @ doma
 
 ![dns-3](./images/dns-3.png)
 
+Kokeillaan vielä pingata suoraan osoitetta:
+
+    ping haavanoksa.me
+
+![dns-4](./images/dns-4.png)
+
 Toimii!
 
 ### Weppipalvelimen asennus
