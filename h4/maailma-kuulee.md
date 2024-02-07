@@ -121,12 +121,32 @@ Sudon salasana lukittu. Muokataan vielä konffia, että disabloidaan rootilla ki
 
     sudo service ssh restart
 
+### Domainnimi
+
+Vuokrasin domainnimen Namecheapilta, sillä sekin kuului Github Education pakettiin.
+
+Seuraavaksi asetin domainnimen osoittamaan virtuaalipalvelimelle.
+
+Avasin hallintapaneelista domainin ja sen asetukset. Täältä löytyi Advanced DNS asetus, jota nyt muokkaan.
+
+![dns-1](./images/dns-1.png)
+
+Poistan ensin listalla olevat turhat recordsit. Sitten loin uuden recordsin, joka ohjaa domainnimen virtuaalipalvelimen IP-osoitteeseen.
+
+![dns-2](./images/dns-2.png)
+
+Testaus vielä, että ohjaus toimii. Kirjaudutaan nyt ssh:lla käyttäjä @ domainnimi
+
+    ssh jante@haavanoksa.me
+
+![dns-3](./images/dns-3.png)
+
+Toimii!
+
 ### Weppipalvelimen asennus
 
 -
--
 
-### Domainnimi
+#### Lähteet
 
--
--
+Linux Palvelimet 2024 alkukevät. Terokarvinen.com. Luettavissa: https://terokarvinen.com/2024/linux-palvelimet-2024-alkukevat/ Luettu: 07.02.2024.
