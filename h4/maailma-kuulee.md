@@ -151,8 +151,22 @@ Toimii!
 
 ### Weppipalvelimen asennus
 
--
+Asennan virtuaalikoneelle apachen
+
+    sudo apt-get -y install apache2
+
+Testaus, että selaimessa avautuu nyt haavanoksa.me ja apachen default sivu
+
+![apa-1](./images/apa-1.png)
+
+Koitin luoda uuden virtual hostin mutta sain jatkuvasti virheitä puuttuvista oikeuksista. En muistanut kuinka nämä ratkaistiin, joten päädyin korvaamaan default konffin html tiedoston
+
+    echo hei maailma | sudo tee /var/www/html/index.html
+
+![apa-2](./images/apa-2.png)
 
 #### Lähteet
 
 Linux Palvelimet 2024 alkukevät. Terokarvinen.com. Luettavissa: https://terokarvinen.com/2024/linux-palvelimet-2024-alkukevat/ Luettu: 07.02.2024.
+
+Teoriasta käytäntöön pilvipalvelimen avulla (h4). Susannalehto.fi. Luettavissa: https://susannalehto.fi/2022/teoriasta-kaytantoon-pilvipalvelimen-avulla-h4/ Luettu: 9.2.2024.
