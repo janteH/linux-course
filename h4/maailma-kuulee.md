@@ -109,9 +109,11 @@ Tämän jälkeen testataan, toimiiko tunnus. Avasin toisen terminal ikkunan ja k
 
 Testasin vielä apt-get update komentoa, joka toimi. Nyt kun tunnus on todettu toimivaksi, voidaan sulkea root -tunnus.
 
+Estää rootin kirjautumisen salasanalla:
+
     sudo usermod –lock root
 
-Sudon salasana lukittu. Muokataan vielä konffia, että disabloidaan rootilla kirjautuminen.
+Sudon salasana lukittu. Muokataan vielä konffia, että disabloidaan rootilla kirjautuminen SSHlla:
 
     sudoedit /etc/ssh/sshd_config
 
