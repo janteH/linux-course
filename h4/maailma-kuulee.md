@@ -167,6 +167,14 @@ Koitin luoda uuden virtual hostin mutta sain jatkuvasti virheitä puuttuvista oi
 
 ![apa-2](./images/apa-2.png)
 
+### Editoitu 13.02.2024
+
+Sain Apachen toimimaan vihdoin omalla konffitiedostolla, ja eri html sivulla omasta hakemistostani. Ongelma oli lopulta oikeuksien puuttumisesta /jante/ kansioon, johon lisäsin other -ryhmälle x eli execute oikeudet.
+
+![error-1](./images/error-1.png)
+
+![error-2](./images/error-2.png)
+
 #### Lähteet
 
 Linux Palvelimet 2024 alkukevät. Terokarvinen.com. Luettavissa: https://terokarvinen.com/2024/linux-palvelimet-2024-alkukevat/ Luettu: 07.02.2024.
