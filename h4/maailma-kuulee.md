@@ -111,7 +111,7 @@ Testasin vielä apt-get update komentoa, joka toimi. Nyt kun tunnus on todettu t
 
 Estää rootin kirjautumisen salasanalla:
 
-    sudo usermod –lock root
+    sudo usermod --lock root
 
 Sudon salasana lukittu. Muokataan vielä konffia, että disabloidaan rootilla kirjautuminen SSHlla:
 
