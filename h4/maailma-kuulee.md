@@ -63,7 +63,7 @@ Kirjaudun koneelle aikaisemmin kurssilla luodun Debianin kautta.
 
 Terminaaliin komento
 
-    ssh root@159.65192.67
+    ssh root@159.65.192.67
 
 ![root-1](./images/root-1.png)
 
