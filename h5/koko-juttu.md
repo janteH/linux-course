@@ -41,6 +41,8 @@ Syntaksi:
     host [-aCdlriTWV] [-c class] [-N ndots] [-t type] [-W time]
          [-R number] [-m flag] hostname [server]
 
+#### Esimerkkejä
+
 host domainnimi tulostaa määritetyn toimialueen IP-osoitetiedot.
 
 ![host-0](./images/host-0.png)
@@ -61,9 +63,25 @@ Kokeilin näitäkin komentoja mutta tarkoitus ei ehkä ihan vielä selvinnyt its
 
 ### dig -komento
 
--
--
+Dig-komento eli Domain Information Groper. Sitä käytetään DNS-nimipalvelimien tietojen hakemiseen. Sitä käyttävät periaatteessa verkonvalvojat. Sitä käytetään DNS-ongelmien tarkistamiseen ja vianetsintään sekä DNS-hakujen suorittamiseen. Dig-komento korvaa vanhemmat työkalut, kuten nslookup ja host.
 
+Syntaksi:
+
+    dig [server] [name] [type]
+
+#### Esimerkkejä
+
+dig domain
+
+![dig-0](./images/dig-0.png)
+
+Tämä komento saa digin etsimään "A"-tietueen verkkotunnukselle "haavanoksa.me".
+
+dig domain +short
+
+![dig-1](./images/dig-1.png)
+
+Tämä lyhentää edellisen haun.
 
 ###### Lähteet
 
