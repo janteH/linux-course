@@ -1,6 +1,6 @@
 # Debianin ja Apachen asennus uudelleen
 
-Asensin Debian virtual Linuxin vSpeheren hallinnassa VMwareen. Ostin myös domainin haavanoksa.com, jonka asetin osoittamaan tähän koneeseen.
+Asensin Debian virtual Linuxin vSpeheren hallinnassa VMwareen. Ostin myös domainin haavanoksa.com, jonka asetin osoittamaan tähän koneeseen. Tähän asennukseen käytin toista tietokonettani Macbook Pro intel based 2018. Palvelin koneena toimii dell-r730
 
 Aloitin luomalla ensin uuden virtuaalikoneen. Tästä avautui wizardi, jossa tämä määriteltiin.
 
@@ -33,6 +33,18 @@ Tämän jälkeen hain Debianin iso imagen https://cdimage.debian.org/debian-cd/c
 Avasin koneeltani terminaalin, menin lataukset kansioon ja ajoin komennon joka siirtää iso imagen vspereen
 
     scp debian-live-12.5.0-amd64-xfce.iso tunnus@kone.tld:/vmfs/volumes/datastore/ISO
+
+Asetin ISO imagen koneeseen valitsemalla edit settings ja valitsemalla CD asemaan Datastorage Iso File
+
+![vm-06](./images/vm-06.png)
+
+Koneen käynnistys startti nappulasta ja remote consolen avaus. Tässä kohtaa asensin App Storesta VMware remote console appin, jolla sain etätyöpöytä yhteyden koneeseen.
+
+Sain työpöytänäkymän käyntiin, ja nyt asentamaan Debian työpöydällä olevan kuvakkeen kautta samaan tapaan kuin ensimmäisessä VirtualBox Linux asennuksessa.
+
+![vm-07](./images/vm-07.png)
+
+
 
 -
 -
