@@ -50,6 +50,8 @@ Sain työpöytänäkymän käyntiin, ja nyt asentamaan Debian työpöydällä ol
 -
 -
 
+##### Seuraavat tehtävät on tehty taas Windows koneellani VirtualBox ympäristössä
+
 ## Pubkey
 
 Kirjautumisen aktivointi julkisella SSH -avaimella.
@@ -151,6 +153,8 @@ dig domain +short
 Tämä lyhentää edellisen haun.
 
 ###### Lähteet
+
+Debian Live image luettavissa: https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/. Luettu 26.2.2024.
 
 dig Command in Linux with Examples. Geeksforgeeks.org. Luettavissa: https://www.geeksforgeeks.org/dig-command-in-linux-with-examples/. Luettu: 26.2.2024.
 
