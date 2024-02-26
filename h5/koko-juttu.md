@@ -213,6 +213,8 @@ dig Command in Linux with Examples. Geeksforgeeks.org. Luettavissa: https://www.
 
 host command in Linux with examples. Geeksforgeeks.org. Luettavissa: https://www.geeksforgeeks.org/host-command-in-linux-with-examples/. Luettu: 25.2.2024.
 
+How to Configure and Enable SSH on Debian 12. Linuxgenie.net. Luettavissa: https://linuxgenie.net/how-to-configure-and-enable-ssh-on-debian-12/. Luettu: 26.2.2024.
+
 How To Configure SSH Key-Based Authentication on a Linux Server. Digitalocean.com. Luettavissa: https://www.digitalocean.com/community/tutorials/how-to-configure-ssh-key-based-authentication-on-a-linux-server. Luettu 26.2.2024.
 
 How to Fix nslookup, host, dig: -bash: command not found in Linux? Webhostinggeeks.com. Luettavissa: https://webhostinggeeks.com/howto/how-to-fix-nslookup-host-dig-bash-command-not-found-in-linux/. Luettu: 25.2.2024.
