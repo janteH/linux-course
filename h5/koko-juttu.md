@@ -157,6 +157,12 @@ Testataan selaimessa
 
 Toimii.
 
+### Certbot
+
+Luotu SSL sertifikaatti ja sen auto renewal ohjeiden mukaan: https://www.digitalocean.com/community/tutorials/how-to-secure-apache-with-let-s-encrypt-on-debian-11
+
+![apache-06](./images/apache-06.png)
+
 ##### Seuraavat tehtävät on tehty taas Windows koneellani VirtualBox ympäristössä
 
 ## Pubkey
@@ -274,5 +280,7 @@ How To Configure SSH Key-Based Authentication on a Linux Server. Digitalocean.co
 How to Fix nslookup, host, dig: -bash: command not found in Linux? Webhostinggeeks.com. Luettavissa: https://webhostinggeeks.com/howto/how-to-fix-nslookup-host-dig-bash-command-not-found-in-linux/. Luettu: 25.2.2024.
 
 How To Install the Apache Web Server on Debian 11. Digitalocean.com. Luettavissa: https://www.digitalocean.com/community/tutorials/how-to-install-the-apache-web-server-on-debian-11#step-5-setting-up-virtual-hosts-recommended. Luettu: 26.2.2024.
+
+How To Secure Apache with Let's Encrypt on Debian 11. Digitalocean.com. Luettavissa: https://www.digitalocean.com/community/tutorials/how-to-secure-apache-with-let-s-encrypt-on-debian-11. Luettu: 26.2.2024.
 
 Linux Palvelimet 2024 alkukevät. Terokarvinen.com. Luettavissa: https://terokarvinen.com/2024/linux-palvelimet-2024-alkukevat/. Luettu: 25.2.2024.
