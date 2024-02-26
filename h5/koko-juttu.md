@@ -44,7 +44,60 @@ Sain työpöytänäkymän käyntiin, ja nyt asentamaan Debian työpöydällä ol
 
 ![vm-07](./images/vm-07.png)
 
+Asennuksen jälkeen koneelle kirjautuminen
 
+Verkkoasetusten muokkaus kiinteäksi komennolla
+
+    sudo nmtui
+
+![nmtui](./images/nmtui.png)
+
+Verkkoasetusten uudelleen käynnistys
+
+    sudo /etc/init.d/networking restart
+
+Jotta lähti toimintaan niin vielä nmtuista deactivate/activate. Tämän jälkeen pakettien päivitys toimi.
+
+    sudo apt-get update
+
+Tulimuurin asennus
+
+    sudo apt-get -y install ufw
+    sudo ufw enable
+
+Porttien avaus ssh, http ja https :lle 
+
+![ufw](./images/ufw.png)
+
+Sitten voidaan sulkea sudo tunnuksella kirjautuminen
+
+    sudo usermod --lock root
+
+Koitin estää sudon ssh kirjautumisen mutta konffi tiedostoa ei löytynyt. Asentamaan siis SSH server. https://linuxgenie.net/how-to-configure-and-enable-ssh-on-debian-12/
+
+    sudo apt install openssh-server
+
+    sudo systemctl start ssh
+
+    sudo systemctl status ssh
+
+SSH toiminnassa. Nyt Konffi tiedosto löytyi, ja muutettu:
+
+    sudoedit /etc/ssh/sshd_config
+
+    # ...
+    PermitRootLogin no
+    # ...
+
+    sudo service ssh restart
+
+SSH:n testaus omalta Mac koneelta. Todettu toimivaksi.
+
+Näytön resoluution muutos asentamalla vm toolsit
+
+    sudo apt install open-vm-tools
+
+### Apachen asennus
 
 -
 -
