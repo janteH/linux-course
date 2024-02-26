@@ -6,8 +6,29 @@
 
 ## Pubkey
 
--
--
+Kirjautumisen aktivointi julkisella SSH -avaimella.
+
+Asensin tämän DigitalOceanissa olevaan virtuaalikoneeseen; Debian Linuxiin.
+
+Avaimen luonti komennolla
+
+    ssh-keygen
+
+Tallensin avaimen oletussijaintiin.
+
+![pubkey-0](./images/pubkey-0.png)
+
+Avaimen kopiointi komennolla
+
+    ssh-copy-id jante@haavanoksa.me
+
+![pubkey-1](./images/pubkey-1.png)
+
+Seuraavaksi testaan kirjautumista käytännössä. Lopetan yhteyden "exit" komennolla. Kokeilen kirjautua uudelleen ssh:lla.
+
+    ssh jante@haavanoksa.me
+
+Jostakin syystä yhteys kysyy kuitenkin salasanaa. Kokeilin vielä generoida ja kopioida avaimen uudelleen mutta en saanut tätä toimimaan.
 
 ## Digging host
 
@@ -85,7 +106,11 @@ Tämä lyhentää edellisen haun.
 
 ###### Lähteet
 
+dig Command in Linux with Examples. Geeksforgeeks.org. Luettavissa: https://www.geeksforgeeks.org/dig-command-in-linux-with-examples/. Luettu: 26.2.2024.
+
 host command in Linux with examples. Geeksforgeeks.org. Luettavissa: https://www.geeksforgeeks.org/host-command-in-linux-with-examples/. Luettu: 25.2.2024.
+
+How To Configure SSH Key-Based Authentication on a Linux Server. Digitalocean.com. Luettavissa: https://www.digitalocean.com/community/tutorials/how-to-configure-ssh-key-based-authentication-on-a-linux-server. Luettu 26.2.2024.
 
 How to Fix nslookup, host, dig: -bash: command not found in Linux? Webhostinggeeks.com. Luettavissa: https://webhostinggeeks.com/howto/how-to-fix-nslookup-host-dig-bash-command-not-found-in-linux/. Luettu: 25.2.2024.
 
