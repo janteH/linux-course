@@ -1,5 +1,39 @@
 # Debianin ja Apachen asennus uudelleen
 
+Asensin Debian virtual Linuxin vSpeheren hallinnassa VMwareen. Ostin myös domainin haavanoksa.com, jonka asetin osoittamaan tähän koneeseen.
+
+Aloitin luomalla ensin uuden virtuaalikoneen. Tästä avautui wizardi, jossa tämä määriteltiin.
+
+Annoin koneen nimeksi haavanoksa.com
+
+![vm-00](./images/vm-00.jpg)
+
+Palvelimella on valmiiksi minulle luotu kansio virtuaalikoneille
+
+![vm-01](./images/vm-01.jpg)
+
+Datastoragen valinta
+
+![vm-02](./images/vm-02.jpg)
+
+Käyttöjärjestelmäksi Linux Debian x64
+
+![vm-03](./images/vm-03.png)
+
+Muita muutoksia en tehnyt kuin valitsin internetin suoraan julkiseksi
+
+![vm-04](./images/vm-04.jpg)
+
+Yhteenvetona vielä speksit
+
+![vm-05](./images/vm-05.jpg)
+
+Tämän jälkeen hain Debianin iso imagen https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/
+
+Avasin koneeltani terminaalin, menin lataukset kansioon ja ajoin komennon joka siirtää iso imagen vspereen
+
+    scp debian-live-12.5.0-amd64-xfce.iso tunnus@kone.tld:/vmfs/volumes/datastore/ISO
+
 -
 -
 -
