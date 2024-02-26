@@ -99,9 +99,63 @@ Näytön resoluution muutos asentamalla vm toolsit
 
 ### Apachen asennus
 
--
--
--
+Nyt kun SSH toimii, niin siirryin takaisin Windows koneelleni, ja päätin kokeilla Windows komentokehoitteen SSH toimintoa.
+
+![apache-00](./images/apache-00.png)
+
+Asennan virtuaalikoneelle apachen
+
+    sudo apt-get -y install apache2
+
+Toimii
+
+![apache-01](./images/apache-01.png)
+
+Korvataan vielä oletussivu muodon vuoksi
+
+    echo toimii | sudo tee /var/www/html/index.html
+
+curlin asennus
+
+    sudo apt install curl
+
+![apache-02](./images/apache-02.png)
+
+Luotu kansio domainille, johon asetettu oikeudet, tehty index html tiedosto, johon lyhyt testi sivu.
+
+![apache-03](./images/apache-03.png)
+
+Tarkistetaan vielä kansion oikeudet
+
+    ls- lah
+
+![apache-04](./images/apache-04.png)
+
+Seuraavaksi konffi tiedosto
+
+    sudo nano /etc/apache2/sites-available/your_domain.conf
+
+Sitten enabloidaan konffi
+
+    sudo a2ensite your_domain.conf
+
+Disabloidaan default konffi
+
+    sudo a2dissite 000-default.conf
+
+Ajetaan konffi testi
+
+    sudo apache2ctl configtest
+
+Ja apachelle restartti
+
+    sudo systemctl restart apache2
+
+Testataan selaimessa
+
+![apache-05](./images/apache-05.png)
+
+Toimii.
 
 ##### Seuraavat tehtävät on tehty taas Windows koneellani VirtualBox ympäristössä
 
@@ -218,5 +272,7 @@ How to Configure and Enable SSH on Debian 12. Linuxgenie.net. Luettavissa: https
 How To Configure SSH Key-Based Authentication on a Linux Server. Digitalocean.com. Luettavissa: https://www.digitalocean.com/community/tutorials/how-to-configure-ssh-key-based-authentication-on-a-linux-server. Luettu 26.2.2024.
 
 How to Fix nslookup, host, dig: -bash: command not found in Linux? Webhostinggeeks.com. Luettavissa: https://webhostinggeeks.com/howto/how-to-fix-nslookup-host-dig-bash-command-not-found-in-linux/. Luettu: 25.2.2024.
+
+How To Install the Apache Web Server on Debian 11. Digitalocean.com. Luettavissa: https://www.digitalocean.com/community/tutorials/how-to-install-the-apache-web-server-on-debian-11#step-5-setting-up-virtual-hosts-recommended. Luettu: 26.2.2024.
 
 Linux Palvelimet 2024 alkukevät. Terokarvinen.com. Luettavissa: https://terokarvinen.com/2024/linux-palvelimet-2024-alkukevat/. Luettu: 25.2.2024.
