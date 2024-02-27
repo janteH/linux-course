@@ -97,7 +97,7 @@ Näytön resoluution muutos asentamalla vm toolsit
 
     sudo apt install open-vm-tools
 
-Oletus tekstieditorin muokkau
+Oletus tekstieditorin muokkaus. Latasin aikaisemmin micro -editorin.
 
     cd /etc
 
