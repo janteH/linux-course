@@ -97,6 +97,16 @@ Näytön resoluution muutos asentamalla vm toolsit
 
     sudo apt install open-vm-tools
 
+Oletus tekstieditorin muokkau
+
+    cd /etc
+
+    micro bash.bashrc
+
+Viimeiselle riville:
+
+    export EDITOR='micro'
+
 ### Apachen asennus
 
 Nyt kun SSH toimii, niin siirryin takaisin Windows koneelleni, ja päätin kokeilla Windows komentokehoitteen SSH toimintoa.
