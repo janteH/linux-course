@@ -101,7 +101,7 @@ Oletus tekstieditorin muokkaus. Latasin aikaisemmin micro -editorin.
 
     cd /etc
 
-    micro bash.bashrc
+    sudoedit bash.bashrc
 
 Viimeiselle riville:
 
