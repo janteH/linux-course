@@ -302,7 +302,7 @@ Muokataan nämä polut konffi tiedostoon. Konffi tiedosto kopioitu suoraan terok
 
     sudoedit /etc/apache2/sites-available/jantehaa.conf
 
-![tbd-06](./images/tbd-06.png)
+![tbd-07](./images/tbd-07.png)
 
 Asennetaan Apache WSGI -moduuli, jotta Apache oppii, mitä WSGI-komennot tarkoittavat.
 
