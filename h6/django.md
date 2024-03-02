@@ -80,16 +80,123 @@ Sivun pitäisi nyt näyttää tältä
 
 ![env-08](./images/env-08.png)
 
-### Admin interface & customer database
+### Admin interface
 
+(projekti ei ole käynnissä seuraavien toimenpiteiden aikana)
 
+Tietokannan päivitys
 
+    ./manage.py makemigrations
+    ./manage.py migrate
 
+Lataan ensin salasana generaattorin, jolla luon salasanan uudelle käyttäjälle
 
+    sudo apt-get install pwgen
+    pwgen -s 20 1 # randomize a password
 
+Käyttäjän lisäys
 
+    ./manage.py createsuperuser
+
+Täytän pyydetyt tiedot, ja käyttäjä on nyt luotu.
+
+Projektin käynnistys takaisin päälle
+
+    ./manage.py runserver
+
+Nyt voimme kokeilla kirjautua osoitteeseen http://127.0.0.1:8000/admin/
+
+![admin-00](./images/admin-00.png)
+
+Lisätään vielä peruskäyttäjä admin paneelin kautta, ja kokeillaan kirjautua sillä sisään. Käyttäjälle lisätty "staff" oikeudet, ja "view" ja "add" oikeudet. 
+
+Kirjautuminen testattu ja todettu onnistuneeksi.
+
+### Customer Database
+
+(projekti ei ole käynnissä seuraavien toimenpiteiden aikana)
+
+Luodaan uusi kansio "crm" sovelluksellemme
+
+    ./manage.py startapp crm
+
+Lisätään sovellus listaan
+
+    micro jahaa/settings.py
+
+Asetus tiedostossa lisätään siis 'crm' listaan kuvan mukaisesti
+
+![crm-00](./images/crm-00.png)
+
+Lisätään muutama malli. Django voi luoda malleista automaattisesti tietokantoja, järjestelmänvalvojan näkymiä tai jopa lomakkeita.
+
+    micro crm/models.py
+
+Lisätään tähän:
+
+    from django.db import models
+
+    class Customer(models.Model):
+       name = models.CharField(max_length=300)
+
+![crm-01](./images/crm-01.png)
+
+Asiakasluokka luo tietokantaan "asiakas" -taulukon "nimi"-sarakkeella.
+
+    ./manage.py makemigrations
+    ./manage.py migrate
+
+![crm-02](./images/crm-02.png)
+
+Nähdäksemme uuden tietokantaamme admin/-sivulla, meidän on rekisteröitävä se
+
+    micro crm/admin.py
+
+Tähän tiedostoon:
+
+    from django.contrib import admin
+    from . import models
+    
+    admin.site.register(models.Customer)
+
+![crm-03](./images/crm-03.png)
+
+Projektin käynnistys
+
+    ./manage.py runserver
+
+Sivulla pitäisi nyt näkyä CRM valikko
+
+![crm-04](./images/crm-04.png)
+
+Lisätään muutama asiakas "Customers" alle. Lista näyttää nyt "Customer object" listassa mutta muokataan crm/models.py tiedostoa siten, että saadaan listaan näkyviin asiakkaiden nimet.
+
+![crm-05](./images/crm-05.png)
+
+(projekti ei ole käynnissä seuraavien toimenpiteiden aikana)
+
+    micro crm/models.py
+
+Lisätään tiedostoon
+
+    def __str__(self):
+        return self.name
+
+Tiedosto näyttää nyt tältä:
+
+![crm-06](./images/crm-06.png)
+
+Projekti käyntiin ja testaus admin sivulla
+
+![crm-07](./images/crm-07.png)
 
 ## Django tuotannossa
+
+
+
+
+
+
 
 
 
