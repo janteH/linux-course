@@ -346,7 +346,7 @@ Muokataan asetustiedostoa seuraavasti
 
 Ladataan muutokset
 
-    touch teroco/wsgi.py
+    touch jante/wsgi.py
 
 Jotkut muutokset saattavat vaatia apachen uudelleen käynnistyksen
 
