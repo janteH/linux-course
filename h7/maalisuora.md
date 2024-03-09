@@ -62,7 +62,7 @@ Tein soveltuvin osin Final Lab for Linux Palvelimet 2023 -kurssin arvioitavaa te
 
 Aloitin luomalla VirtualBoxiin uuden Linuxin arvioitavaa labratehtävää varten. Käytin samaa iso-imagea kuin aikaisemmissa asennuksissa ja tein täysin samanlaisen asennuksen kuin aikaisemmatkin koneet.
 
-Nimesin koneen labrakoneeksi, muistia 4000MB, kiintolevy 50GB ja iso-imageksi juuri ladattu tiedosto. Type Linux ja versio Debian 64bit.
+Nimesin koneen labrakoneeksi, muistia 4000MB, kiintolevy 50GB ja iso-imageksi aikaisemmin ladattu tiedosto. Type Linux ja versio Debian 64bit.
 
 Tämän jälkeen starttasin koneen ja kävin graafisen asennuksen läpi.
 
