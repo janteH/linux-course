@@ -56,8 +56,15 @@ Seuraavaksi navigoin lookaaliin kansioon tarkistamaan, että tiedosto on siellä
 
 # Tyhjän Linuxin asentaminen lopputehtävää varten
 
+Aloitin luomalla VirtualBoxiin uuden linuxin arvioitavaa labratehtävää varten. Hain netistä uuden iso-imagen: Debian 12, codenamed bookworm, netinst, for 64-bit PC (amd64) (https://www.debian.org/download)
+
+Nimesin koneen Labrakoneeksi, muistia 4000MB, kiintolevy 50GB ja iso-imageksi juuri ladattu tiedosto. Type Linux ja versio Debian 64bit.
+
+Tämän jälkeen starttasin koneen
 
 ###### Lähteet
+
+Downloading Debian. Debian.orf. Luettavissa: https://www.debian.org/download. Luettu: 9.3.2024.
 
 How to Make Script Executable in Linux | chmod Command. Geeksforgeeks.org. Luettavissa: https://www.geeksforgeeks.org/chmod-command-linux/. Luettu: 9.3.2024.
 
