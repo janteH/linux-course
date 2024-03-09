@@ -50,23 +50,31 @@ Seuraavaksi navigoin lookaaliin kansioon tarkistamaan, että tiedosto on siellä
 
 # Arvioitavan tehtävän harjoitus
 
--
--
--
+Tein soveltuvin osin Final Lab for Linux Palvelimet 2023 -kurssin arvioitavaa tehtävää.
+
+- Skripti, joka tulostaa ajankohtaista tietoa; päivämäärä ja käyttäjän nimi
+- Asennettu micro-editori ja sille jokin plugin
+- Asennettu Apache-weppipalvelin
+- Asennettu ssh-palvelin
+- Asennettu omalle käyttäjälle Django kehitysympäristö
 
 # Tyhjän Linuxin asentaminen lopputehtävää varten
 
-Aloitin luomalla VirtualBoxiin uuden linuxin arvioitavaa labratehtävää varten. Hain netistä uuden iso-imagen: Debian 12, codenamed bookworm, netinst, for 64-bit PC (amd64) (https://www.debian.org/download)
+Aloitin luomalla VirtualBoxiin uuden Linuxin arvioitavaa labratehtävää varten. Käytin samaa iso-imagea kuin aikaisemmissa asennuksissa ja tein täysin samanlaisen asennuksen kuin aikaisemmatkin koneet.
 
-Nimesin koneen Labrakoneeksi, muistia 4000MB, kiintolevy 50GB ja iso-imageksi juuri ladattu tiedosto. Type Linux ja versio Debian 64bit.
+Nimesin koneen labrakoneeksi, muistia 4000MB, kiintolevy 50GB ja iso-imageksi juuri ladattu tiedosto. Type Linux ja versio Debian 64bit.
 
-Tämän jälkeen starttasin koneen
+Tämän jälkeen starttasin koneen ja kävin graafisen asennuksen läpi.
+
+Asensin koneelle päivitykset, Guest Additions ja tulimuurin.
 
 ###### Lähteet
 
-Downloading Debian. Debian.orf. Luettavissa: https://www.debian.org/download. Luettu: 9.3.2024.
+Final Lab for Linux Palvelimet 2023. Terokarvinen.com Luettavissa: https://terokarvinen.com/2023/linux-palvelimet-2023-arvioitava-laboratorioharjoitus/?fromSearch=Arvioitava%20laboratorioharjoitus. Luettu: 9.3.2024.
 
 How to Make Script Executable in Linux | chmod Command. Geeksforgeeks.org. Luettavissa: https://www.geeksforgeeks.org/chmod-command-linux/. Luettu: 9.3.2024.
+
+Install Debian on Virtualbox - Updated 2023. Terokarvinen.com. Luettavissa: https://terokarvinen.com/2021/install-debian-on-virtualbox/. Luettu: 9.3.2024.
 
 Linux Palvelimet 2024 alkukevät. Terokarvinen.com. Luettavissa: https://terokarvinen.com/2024/linux-palvelimet-2024-alkukevat/. Luettu: 9.3.2024.
 
